@@ -3,7 +3,6 @@ Palindrome Checker problem
 -solved by Dewan
 """
 
-
 def is_palindrome(string):
     # Convert to lowercase and remove anything without characters
     clean_string = ''.join(char.lower() for char in string if char.isalnum())
